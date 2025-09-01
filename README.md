@@ -1,273 +1,131 @@
-# 阿部友陽 | Skill Sheet
+# 阿部友陽 スキルシート
 
-## 📋 基本情報
+## 基本情報
 
-<table>
-<tr>
-<td width="30%"><strong>🏷️ 氏名</strong></td>
-<td>阿部 友陽</td>
-</tr>
-<tr>
-<td><strong>🎂 年齢</strong></td>
-<td>27</td>
-</tr>
-<tr>
-<td><strong>👤 性別</strong></td>
-<td>男性</td>
-</tr>
-<tr>
-<td><strong>📍 所在地</strong></td>
-<td>北海道札幌市</td>
-</tr>
-<tr>
-<td><strong>🚇 最寄駅</strong></td>
-<td>北海道札幌市 地下鉄東豊線</td>
-</tr>
-<tr>
-<td><strong>🎓 学歴</strong></td>
-<td>弘前大学理工学部自然エネルギー学科</td>
-</tr>
-<tr>
-<td><strong>🏆 資格</strong></td>
-<td>
-AWS認定CLF, AIF, SAA, SOA, DVA<br>
-ITパスポート<br>
-<a href="https://www.credly.com/users/yuhi-abe">🔗 Credly Profile</a>
-</td>
-</tr>
-</table>
+| 項目   | 内容                                                                                    |
+| ------ | --------------------------------------------------------------------------------------- |
+| 氏名   | 阿部 友陽                                                                               |
+| 年齢   | 27                                                                                      |
+| 性別   | 男性                                                                                    |
+| 所在地 | 北海道札幌市                                                                            |
+| 最寄駅 | 北海道札幌市 地下鉄東豊線                                                               |
+| 学歴   | 弘前大学理工学部自然エネルギー学科                                                      |
+| 資格   | AWS認定CLF, AIF, SAA, SOA, DVA<br>ITパスポート<br>https://www.credly.com/users/yuhi-abe |
 
-> **💡 注釈**: ⭐は得意分野を示しています
+**注釈**: ★は得意分野になります。
 
-## 🚀 技術スキル
+## スキル
 
-### 💻 プログラミング言語
-<div align="left">
+### プログラミング言語
 
-![Python](https://img.shields.io/badge/⭐_Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/_JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/_PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/_Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+★Python, JavaScript, PHP, Java
 
-</div>
+### フレームワーク
 
-### 🛠️ フレームワーク
-<div align="left">
+★Flask(Python), Django(Python), ★FastAPI(Python), Vue(JavaScript), Nuxt(Vue)
 
-![Flask](https://img.shields.io/badge/⭐_Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/_Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/⭐_FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=flat-square&logo=nuxt.js&logoColor=white)
+### 仮想環境
 
-</div>
+Docker
 
-### 📦 仮想環境・コンテナ
-<div align="left">
+### クラウドサービス
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+★AWS, Microsoft Entra ID, Google Cloud
 
-</div>
+### データベース
 
-### ☁️ クラウドサービス
-<div align="left">
+RDS for MySQL, RDS for PostgreSQL, RDS Aurora for MySQL, RDS Aurora Serverless v2, DynamoDB, Bigquery, OpenSearch Service
 
-![AWS](https://img.shields.io/badge/⭐_AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Entra_ID-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+### AWS サービス
 
-</div>
+EC2, VPC, ELB, Auto Scaling, S3, Route53, ACM, Lambda, Api Gateway, SQS, SNS, Chatbot, ECS, Secrets Manager, Amplify, ElasticSearch, EventBridge, ECS Fargate, SDK(boto3), Cloud9
 
-### 🗄️ データベース
-- RDS for MySQL, RDS for PostgreSQL
-- RDS Aurora for MySQL, RDS Aurora Serverless v2
-- DynamoDB, Bigquery, OpenSearch Service
+### AWS セキュリティ系サービス
 
-### 🔧 AWS サービス
-- **コンピュート**: EC2, Lambda, ECS, ECS Fargate
-- **ネットワーク**: VPC, ELB, Auto Scaling, Route53, ACM
-- **ストレージ**: S3
-- **統合**: Api Gateway, SQS, SNS, EventBridge
-- **開発者ツール**: Cloud9, SDK(boto3), Chatbot
-- **セキュリティ**: Secrets Manager, Amplify
+WAF, Trusted Adviser, CloudTrail, Config, GuardDuty, Security Hub, Well Architected Tool, AWS SSO, Organization, Macie, KMS
 
-### 🔒 AWS セキュリティサービス
-- WAF, Trusted Adviser, CloudTrail, Config
-- GuardDuty, Security Hub, Well Architected Tool
-- AWS SSO, Organization, Macie, KMS
+### CDN
 
-### 🌐 CDN
-<div align="left">
+AWS Cloudfront, Vercel
 
-![CloudFront](https://img.shields.io/badge/AWS_CloudFront-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+### CI/CD
 
-</div>
+AWS CodeCommit, CodeBuild, CodeDeploy, CodePipeline, Github Actions, Gitlab CI
 
-### 🔄 CI/CD
-<div align="left">
+### IaC (Infrastructure as Code)
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![AWS CodePipeline](https://img.shields.io/badge/AWS_CodePipeline-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+★Terraform, Terraform Cloud, AWS CloudFormation, SAM, Severless Framework
 
-</div>
+### 認証系サービス
 
-### 📋 IaC (Infrastructure as Code)
-<div align="left">
+AWS Cognito, Auth0, Onelogin
 
-![Terraform](https://img.shields.io/badge/⭐_Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
-![CloudFormation](https://img.shields.io/badge/_CloudFormation-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![SAM](https://img.shields.io/badge/_AWS_SAM-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+### 監視系サービス
 
-</div>
+Datadog, AWS CloudWatch, AWS X-Ray
 
-- Terraform Cloud, Severless Framework
+### IoT系サービス
 
-### 🔐 認証サービス
-- AWS Cognito, Auth0, Onelogin
+AWS IoT core, AWS TimeStream, AWS Kinesis Video Streams, AWS Kineis Data Firehose
 
-### 📊 監視・モニタリング
-<div align="left">
+### BI系サービス
 
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-![CloudWatch](https://img.shields.io/badge/AWS_CloudWatch-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![X-Ray](https://img.shields.io/badge/AWS_X--Ray-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+AWS Quicksight, Looker Studio
 
-</div>
+### VCS（バージョン管理）サービス
 
-### 🌐 IoTサービス
-- AWS IoT core, AWS TimeStream
-- AWS Kinesis Video Streams, AWS Kineis Data Firehose
+Gitlab, Github, AWS CodeCommit
 
-### 📈 BIツール
-- AWS Quicksight, Looker Studio
+### その他サービス
 
-### 📝 バージョン管理
-<div align="left">
+Selenium, Selenium Grid, Swagger, Let's Encrypt, Adminer, Wafcharm, StatusPage(Attlacian), Cloudcraft, Localstack
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+### 業務ツール
 
-</div>
+Backlog, Slack
 
-### 🛠️ その他開発ツール
-- Selenium, Selenium Grid, Swagger, Let's Encrypt
-- Adminer, Wafcharm, StatusPage(Atlassian), Cloudcraft, Localstack
+### その他API
 
-### 💼 業務ツール
-- Backlog, Slack
+Twitter, Google, Spotify, CloudSign, LINE Notify
 
-### 🔗 外部API連携
-- Twitter, Google, Spotify, CloudSign, LINE Notify
+## 職務経歴
 
----
+| No. | 企業名                                                | 期間                    | 契約・雇用形態 | 担当職種                                         | 事業内容・業務内容                       |
+| --- | ----------------------------------------------------- | ----------------------- | -------------- | ------------------------------------------------ | ---------------------------------------- |
+| 1   | 株式会社デジタルガレージ<br>https://www.garage.co.jp/ | 2024年06月 - 現在       | 正社員         | CCoE, SRE                                        | Webアプリ開発                            |
+| 2   | 個人事業主                                            | 2021年12月 - 2024年05月 | 個人事業主     | バックエンド, インフラ, SRE                      | Webアプリ開発                            |
+| 3   | 株式会社エコモット<br>https://www.ecomott.co.jp/      | 2020年4月 - 2021年12月  | 正社員         | フロントエンド, バックエンド, インフラ, デバイス | IoTインテグレーション事業・Webアプリ開発 |
 
-## 💼 職務経歴
+## 自己PR
 
-<table>
-<tr>
-<th width="5%">No.</th>
-<th width="25%">企業名</th>
-<th width="20%">期間</th>
-<th width="15%">契約・雇用形態</th>
-<th width="20%">担当職種</th>
-<th width="15%">事業内容・業務内容</th>
-</tr>
-<tr>
-<td align="center"><strong>1</strong></td>
-<td>
-<strong>株式会社デジタルガレージ</strong><br>
-<a href="https://www.garage.co.jp/">🔗 Company Website</a>
-</td>
-<td>2024年06月 - 現在</td>
-<td>正社員</td>
-<td>
-<span style="background-color:#e1f5fe; padding:2px 6px; border-radius:3px;">CCoE</span><br>
-<span style="background-color:#f3e5f5; padding:2px 6px; border-radius:3px;">SRE</span>
-</td>
-<td>Webアプリ開発</td>
-</tr>
-<tr>
-<td align="center"><strong>2</strong></td>
-<td><strong>個人事業主</strong></td>
-<td>2021年12月 - 2024年05月</td>
-<td>個人事業主</td>
-<td>
-<span style="background-color:#e8f5e8; padding:2px 6px; border-radius:3px;">バックエンド</span><br>
-<span style="background-color:#fff3e0; padding:2px 6px; border-radius:3px;">インフラ</span><br>
-<span style="background-color:#f3e5f5; padding:2px 6px; border-radius:3px;">SRE</span>
-</td>
-<td>Webアプリ開発</td>
-</tr>
-<tr>
-<td align="center"><strong>3</strong></td>
-<td>
-<strong>株式会社エコモット</strong><br>
-<a href="https://www.ecomott.co.jp/">🔗 Company Website</a>
-</td>
-<td>2020年4月 - 2021年12月</td>
-<td>正社員</td>
-<td>
-<span style="background-color:#ffebee; padding:2px 6px; border-radius:3px;">フロントエンド</span><br>
-<span style="background-color:#e8f5e8; padding:2px 6px; border-radius:3px;">バックエンド</span><br>
-<span style="background-color:#fff3e0; padding:2px 6px; border-radius:3px;">インフラ</span><br>
-<span style="background-color:#f0f4ff; padding:2px 6px; border-radius:3px;">デバイス</span>
-</td>
-<td>IoTインテグレーション事業・Webアプリ開発</td>
-</tr>
-</table>
+主に、プロダクト横断SREとして、CCoE（クラウド活用の推進および統制と運営の中心）の活動が多く、会社全体のクラウド活用推進、ベストプラクティスの共有・標準化をリードし、開発の内製化およびパートナー依存からの脱却を支援してます。
 
----
+また、プロダクト専属SREの取り組みとして、複数のプロダクトにおけるサービス可用性、パフォーマンス管理、変更管理、モニタリング、コスト管理、セキュリティなどの課題解決を推進し、プロダクトの信頼性向上をリードしてます。
 
-## 🌟 自己PR
+加えて、Platform Engineeringの取り組みとして、CI/CDの構築・改善、開発者向けツールやサービスの標準化を推進し、開発および運用効率を向上させ、プロダクト開発スピードの最大化に貢献する業務も行っております。
 
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 10px; margin: 20px 0;">
+上記の取り組みの中で各種ガイドライン整備と啓蒙活動、クラウド環境の運営におけるステークホルダー間の調整なども行っております。
 
-### 🚀 専門領域
-
-**プロダクト横断SREとして、CCoE（クラウド活用の推進および統制と運営の中心）の活動**が多く、会社全体のクラウド活用推進、ベストプラクティスの共有・標準化をリードし、開発の内製化およびパートナー依存からの脱却を支援してます。
-
-### 🔧 SREとしての取り組み
-
-**プロダクト専属SREの取り組み**として、複数のプロダクトにおけるサービス可用性、パフォーマンス管理、変更管理、モニタリング、コスト管理、セキュリティなどの課題解決を推進し、プロダクトの信頼性向上をリードしてます。
-
-### ⚡ Platform Engineering
-
-**Platform Engineeringの取り組み**として、CI/CDの構築・改善、開発者向けツールやサービスの標準化を推進し、開発および運用効率を向上させ、プロダクト開発スピードの最大化に貢献する業務も行っております。
-
-### 📋 その他の活動
-
-上記の取り組みの中で**各種ガイドライン整備と啓蒙活動**、クラウド環境の運営における**ステークホルダー間の調整**なども行っております。
-
-</div>
-
-### 💪 強み・特徴
-
-> **フロントエンドからバックエンド、クラウドインフラ(AWS)を経験**していることや新しい技術・ツールなどに抵抗ないことが強みです。
-> 
-> **自動化やパフォーマンス改善を適用**し、開発や運用効率の向上させることやアプリケーションの品質を向上させることが好きです。
-> 
-> **宜しくお願い致します。**
-
----
+フロントエンドからバックエンド、クラウドインフラ(AWS)を経験していることや新しい技術・ツールなどに抵抗ないことが強みです。自動化やパフォーマンス改善を適用し、開発や運用効率の向上させることやアプリケーションの品質を向上させることが好きです。宜しくお願い致します。
 
 ## 詳細な職務経歴
 
 ### 1. 株式会社デジタルガレージ（2024年06月 - 現在）
+
 **期間**: 2024年06月 - 現在  
 **業務内容**: クラウドの利活用を推進するCCoE業務
 
 #### 背景と課題
+
 委託をメインとしてたため、プロダクト間で品質にばらつきがある状態かつ必要な知識と経験を持ったリソース（人的資本）が、特定のプロダクトや部門にのみ存在していたため、以下の内容を促進する必要がありました。
 
 - 開発効率の向上
-- セキュリティとガバナンスの向上 
+- セキュリティとガバナンスの向上
 - コスト最適化
 - 運用効率の向上
 
 #### 解決アプローチ
+
 小規模なチームからスタート、プロダクト横断でのクラウドツールのノウハウを蓄積し、標準化を進めました。また、クラウド特有の俊敏性を活かしながら、プロダクトに求められる安全性を両立するために、AWS利用における指針や最低限の共通ルール・標準設計を定めました。
 
 - ルールやプロセスの統制
@@ -277,6 +135,7 @@ ITパスポート<br>
 - 現場が容易に活用できる環境の展開
 
 #### 主な成果
+
 - AWS利用標準ガイドライン策定・展開
   - インフラプロビジョニング
   - ログ管理
@@ -286,12 +145,14 @@ ITパスポート<br>
 - Claude Code Action検証と導入、ガイドラインとプロンプト作成
 
 ### 2. 個人事業主（2021年12月 - 2024年05月）
-**期間**: 2021年12月 - 2024年05月  
+
+**期間**: 2021年12月 - 現在  
 **業務内容**: 不動産契約システムのインフラ構築・新規開発
 
 #### システム構成
+
 - **フロントエンド**: Nuxt.js Vue.js
-- **バックエンド**: 
+- **バックエンド**:
   - Nginx, uWSGI, Python, Flask, MySQL
   - Nginx, uWSGI, Python, Django, Celery, Redis, MySQL
   - Nginx, Gunicorn, Uvicorn, Python, FastAPI, MySQL
@@ -300,13 +161,19 @@ ITパスポート<br>
 8つあるtoB向けサービスのうち4つ専属で担当（他内部でいくつかサブシステムあり）
 
 #### 担当業務
+
 - SRE
 - インフラ構築・運用
 - バックエンドREST API開発
 
+#### 主な成果とコスト削減実績
+
+**35～40%のコスト削減実績**を達成
+
 #### 担当業務詳細
 
 **要件・設計**
+
 - 非機能要件整理
 - クライアント提出用セキュリティチェックシート回答
 - AWSベースでセキュリティ管理策シート作成(NIST CSFベース)
@@ -314,6 +181,7 @@ ITパスポート<br>
 - インフラ設計 作業工数・ランニングコスト見積もり(infracost)
 
 **アーキテクチャ設計・構築**
+
 - AWS マルチテナントSaaSアプリケーション、シングルテナントアプリケーションの設計・構築
 - AWS 各種サービス マルチAZ対応による可用性向上(稼働率向上)
 - AWS 分散負荷テスト実施 (DLT on AWS, Jmeter)
@@ -339,6 +207,7 @@ ITパスポート<br>
 - AWS 本番環境、ステージング環境のアカウント分離対応
 
 **IaC (Infrastructure as Code)**
+
 - Terraform インフラコード化(AWS, Microsoft, Google, Datadog)
 - Terraform インフラ既存リソースのリバースエンジニアリング、Import対応
 - Terraform 開発と運用効率の改善（tfenv, tfsec, tflint, docsなど導入）
@@ -357,6 +226,7 @@ ITパスポート<br>
 - HCP Terraform障害時の対応フロー構築
 
 **CI/CD**
+
 - Github Actions CI/CD構築(バックエンド, フロントエンド, サーバレスアプリケーション, バッチ)
 - Github Actions セキュリティガイドライン策定(バージョン指定方法や権限周り)
 - Github Actions Environtments導入による承認フロー採用と設定ファイルリファクタリング
@@ -371,6 +241,7 @@ ITパスポート<br>
 - AWS Codepipeline CI/CD構築
 
 **セキュリティ**
+
 - AWS スイッチロール導入
 - AWS Organizations マルチアカウント整理(ホワイトペーパー記載のOU運用に寄せるなど)
 - AWS IAM Identity Center 導入(IaC化)
@@ -397,11 +268,13 @@ ITパスポート<br>
 - Github Security Advanced SecretScanningとCodeScanning導入 git-filter repoによる履歴改変
 
 **EOL対応**
+
 - MySQL 5系から8系のメジャーバージョンアップデート対応
 - Serverless Framework v3 から v4, Terraformへの移行対応
 - Yamory検証・導入 脆弱性検知とEOL管理
 
 **コスト最適化**
+
 - AWS S3ライフサイクル見直し(ログ出力周りなどの不要な移行を停止)
 - AWS ログ保持期間見直し(S3, Cloudwatch logs)
 - AWS 開発環境における夜間休日のサーバ定期停止(EventBridge, Stepfunctions)
@@ -415,6 +288,7 @@ ITパスポート<br>
 - 各SaaSサービス月間プラン利用導入
 
 **モニタリング**
+
 - Datadog AWS Integration設定(メトリクス設定の最適化)
 - Datadog Log Management設定 (ログ設計やアーカイブ設定、リハイドレート手順書作成)
 - Datadog Monitor 設定 (Slackへのアラート設定込み)
@@ -430,6 +304,7 @@ ITパスポート<br>
 - 週次モニタリング運用体制導入
 
 **インフラ共通**
+
 - StatusPage ステータスページ導入・設定 (Datadogとの連携によるメトリクス表示)
 - 各種BIツール連携(AWS Quicksight, Looker Studio)
 - Shellcheck導入によるシェルスクリプト静的解析導入(CI組み込み)
@@ -445,6 +320,7 @@ ITパスポート<br>
 - 急上昇したメールバウンス率のメール停止抑制対応
 
 **バックエンド開発**
+
 - SwaggerによるバックエンドAPI設計・仕様書作成
 - Flask-RESTX、FastAPIを用いてのREST API開発
 - 外部SaaSサービス連携処理共通モジュールの実装(cloudsignなど)
@@ -463,6 +339,7 @@ ITパスポート<br>
 - Auth0 アプリ用認証基盤設定・連携
 
 **コンテナ**
+
 - Docker マルチビルドステージ採用などによるイメージサイズ縮小とセキュリティ向上
 - Docker キャッシュ見直しや不要ライブラリ削除対応によるビルド時間短縮とセキュリティ向上
 - Hadolint導入によるDockerfile静的解析導入(CI組み込み)
@@ -472,14 +349,17 @@ ITパスポート<br>
 ### 3. 株式会社エコモット（2020年4月 - 2021年12月）
 
 #### 防犯・監視用カメラ映像を管理するアプリケーションの開発・運用
+
 **期間**: 2020年08月 - 2021年08月
 
 ##### システム構成
+
 - **フロントエンド**: Vue.js
 - **バックエンド**: Python PostgreSQL
 - **インフラ**: AWS
 
 ##### コメント
+
 フロントからインフラまで、当時のモダンな技術を使用してシステム開発を行っていました。また、カメラ関連の作業を通じて、データがクラウドに送信され、ウェブ上で映像が再生されるまでの技術を体系的に学ぶことができました。さらにこのプロジェクトには個別の機能追加プロジェクトも存在し、その中でPLの経験も積むことができました。未経験新卒で初めて携わったPJになりますが、幅広い技術や業務領域を担当することができました。
 
 本PJは自社サービスの開発になりますが、コストに厳しい制約があり、常に工数削減を重視しながら作業を進めていました。特に運用者が専属で配属されてるわけではなかったので、問い合わせ対応に追われないようにヘルプページを作成し、また、専任の試験者がいなかったので、部分的にWeb UI テストを自動化する基盤を構築しました。これらの努力により、エンジニアが開発業務に専念できる時間が増え、効率的にプロジェクトを進めることができ、結果として、サービスの品質向上に繋がりました。
@@ -490,6 +370,7 @@ ITパスポート<br>
 ##### 担当業務詳細
 
 **フロントエンド**
+
 - Vue.js 基盤構築 開発
 - hls.js ストリーミング再生機能実装
 - 多言語対応
@@ -498,6 +379,7 @@ ITパスポート<br>
 - Selenium, Selenium-grid WebUIテスト自動化によるデグレ確認の工数削減
 
 **バックエンド**
+
 - Swagger Rest API設計
 - AWS API Gateway, Lambda(Python3.8)でのAPI開発
 - ネットワークカメラ操作・制御機能実装
@@ -505,6 +387,7 @@ ITパスポート<br>
 - ER図作成、テーブル定義などのDB設計
 
 **インフラ**
+
 - Docker,docker-composeによる開発環境構築
 - AWS CodeシリーズによるフロントエンドのCI/CD構築
 - AWS SAMによるサーバレスアーキテクチャの構築・コード化
@@ -514,14 +397,17 @@ ITパスポート<br>
 - 新規機能追加のためのクラウド費用見積
 
 **デバイス**
+
 - ネットワークカメラ 検証・接続
 - AWS IoT Coreを利用したネットワークカメラ接続・デバイス管理
 - AWS Kinesis Video Streamsを用いたカメラ動画取得機能実装
 
 #### IoTデータコレクトプラットフォームサービス機能追加、保守開発
+
 **期間**: 2021年09月 - 2021年11月（3ヶ月）
 
 ##### コメント
+
 ER図やインフラ構成図などの各ドキュメントがない既存システムの改修はとても大変でした。レガシーシステムに依存した業務や属人化した作業手順などが存在しており、後から参画する開発メンバーへうまく引き継げるような運用ではなく、工数や精神的にも逼迫した状態になっていたので、クラウドサービスなど上手に活用してそういった弊害を無くしたいという気持ちが強くなったと同時になるべくこのプロジェクトへ参画する間は読まれるドキュメントを残すことに注力しました。
 
 管理者用ツールについては検索、ソート、ページネーション、SQLインジェクション対策、XSS対策など基本的な機能の実装することでコーディングやアルゴリズムの知識を深めることができました。また、Linuxを触れる機会が多く、実務レベルのインフラ知識を得ることができました。
@@ -529,6 +415,7 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 ##### 担当業務詳細
 
 **バックエンド**
+
 - PHP, FuelPHP, Smartyによるバックエンドシステムの改修
 - 管理者用ツール 作成
 - DB テーブル定義、追加
@@ -536,19 +423,23 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 - ヘルプページ作成
 
 **インフラ**
+
 - DockerによるFTPサーバ(Pure-FTPd)の検証環境構築
 - FTPサーバのFTPS対応
 - SVNによるバージョン管理
 
 #### 開発系インターンシップの企画・実施
+
 **期間**: 2021年07月 - 2021年08月（2ヶ月）
 
 ##### コメント
+
 リーダーを務めることで、一部マネジメント業務を経験したり、各ステークホルダーとの調整業務を経験しました。人事からの要望として、IoTに関することを学んでいただき、興味関心を持ってもらいたいとのことだったので、そのためのアプローチとして、自社で開発してたIoTデータコレクトプラットフォームを疑似的に構築することを企画し、AWSを利用してハンズオンベースで提供することができました。結果として、このインターンシップに興味を持っていただいた学生に入社してもらいました。
 
 ##### 担当業務詳細
 
 **インフラ**
+
 - AWS アカウント作成時の運用面でのベストプラクティス適用
 - AWS IoT Core、ElasticSearchを利用したデータのリアルタイム可視化
 - AWS Kinesis Firehose StreamsとS3を利用したデータレイク作成
@@ -558,7 +449,7 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 
 #### その他のプロジェクト
 
-**クラウド経営システムのリバースエンジニアリング（2022年2月 - 2022年6月）**  
+**クラウド経営システムのリバースエンジニアリング（2022年2月 - 2022年6月）**
 
 - アーキテクチャ図の作成
 - 非機能要件シートの作成
@@ -572,15 +463,3 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 
 **従業員情報管理システムの開発（社外研修）**  
 期間: 2020年4月 - 2020年6月
-
----
-
-<div align="center">
-
-### 📞 Contact & Connect
-
-[![AWS Certifications](https://img.shields.io/badge/AWS_Certifications-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://www.credly.com/users/yuhi-abe)
-
-**Thank you for visiting my profile! 🙏**
-
-</div>
