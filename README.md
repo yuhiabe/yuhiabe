@@ -463,3 +463,76 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 
 **従業員情報管理システムの開発（社外研修）**  
 期間: 2020年4月 - 2020年6月
+
+## ポートフォリオ
+
+### フリーランスSRE・クラウドエンジニア向けランディングページ
+
+**URL**: https://lp.yuhi-abe.com  
+**開発期間**: 2025年8月  
+**役割**: フルスタック開発（設計・実装・インフラ構築）
+
+#### プロジェクト概要
+
+フリーランスSRE・クラウドエンジニアとしての実績・スキルを効果的に訴求するための高性能ランディングページを開発。  
+最新技術スタックを活用し、パフォーマンス・セキュリティ・UXを最優先に設計・実装。
+
+#### 技術スタック
+
+**コアフレームワーク**
+- **Next.js 15 (App Router)**: 最新のフルスタックフレームワーク、RSC活用
+- **TypeScript 5.7**: 型安全性による品質向上、strict mode完全準拠
+- **React 18**: Concurrent Features活用、Suspense/Streaming対応
+- **Tailwind CSS 3.4**: ユーティリティファーストCSS、カスタムデザインシステム
+
+**UI/UXライブラリ**
+- **Framer Motion**: 高度なアニメーション・トランジション実装
+- **Lucide React**: 軽量SVGアイコンセット
+- **@headlessui/react**: アクセシビリティ対応UIプリミティブ
+- **next-themes**: SSR対応ダークモード実装
+
+**フォーム・メール**
+- **React Hook Form + Zod**: 型安全なフォームバリデーション
+- **Resend + React Email**: モダンなメール送信システム
+- **DOMPurify**: XSS対策のためのサニタイゼーション
+
+**CMS・コンテンツ管理**
+- **Contentful Headless CMS**: コンテンツ管理プラットフォーム
+- **ISR (Incremental Static Regeneration)**: 動的コンテンツ更新
+
+**インフラ・デプロイ**
+- **Vercel**: エッジネットワーク配信、自動デプロイ
+- **GitHub Actions**: CI/CDパイプライン
+- **pnpm**: 高速パッケージマネージャー
+
+#### 実装機能・特徴
+
+**パフォーマンス最適化**
+- **Lighthouse Score**: Performance 99点、Accessibility 99点、Best Practices 96点、SEO 100点
+- **Core Web Vitals最適化**: FCP 0.43秒、LCP 0.56秒、CLS 0
+- **バンドルサイズ最適化**: 239KB (gzip圧縮後)
+- **React最適化**: React.memo、useMemo、useCallbackによる再レンダリング制御
+- **Code Splitting**: 動的インポートによる遅延読み込み
+- **画像最適化**: Next.js Image、WebP自動変換、lazy loading
+
+**セキュリティ実装**
+- **包括的なセキュリティヘッダー**: CSP、X-Frame-Options、HSTS対応
+- **入力値検証・サニタイゼーション**: Zod + DOMPurify
+- **Rate Limiting**: 問い合わせAPIのレート制限実装
+- **環境変数管理**: 機密情報の適切な管理
+- **依存関係監査**: pnpm audit、Renovate自動更新
+
+**アーキテクチャ設計**
+- **Server/Client Component分離**: データ取得とUI処理の明確な分離
+- **多層フォールバック戦略**: Contentful → ISRキャッシュ → 静的データ
+
+**UI/UX機能**
+- **ダークモード対応**: システム設定連動、スムーズなトランジション
+- **レスポンシブデザイン**: モバイルファースト、全デバイス最適化
+- **アニメーション**: Framer Motionによる60fps滑らかなアニメーション
+- **アクセシビリティ**: WCAG 2.1 AA準拠、キーボードナビゲーション対応
+
+**コンテンツ管理**
+- **Contentful CMS統合**: 5つのコンテンツタイプ実装
+- **多言語対応**: 日本語・英語完全対応
+- **リアルタイム更新**: ISRによる自動コンテンツ更新
