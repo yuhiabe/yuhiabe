@@ -487,9 +487,7 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 
 **UI/UXライブラリ**
 - **Framer Motion**: 高度なアニメーション・トランジション実装
-- **Lucide React**: 軽量SVGアイコンセット
 - **@headlessui/react**: アクセシビリティ対応UIプリミティブ
-- **next-themes**: SSR対応ダークモード実装
 
 **フォーム・メール**
 - **React Hook Form + Zod**: 型安全なフォームバリデーション
@@ -511,16 +509,11 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 - **Lighthouse Score**: Performance 99点、Accessibility 99点、Best Practices 96点、SEO 100点
 - **Core Web Vitals最適化**: FCP 0.43秒、LCP 0.56秒、CLS 0
 - **バンドルサイズ最適化**: 239KB (gzip圧縮後)
-- **React最適化**: React.memo、useMemo、useCallbackによる再レンダリング制御
-- **Code Splitting**: 動的インポートによる遅延読み込み
-- **画像最適化**: Next.js Image、WebP自動変換、lazy loading
 
 **セキュリティ実装**
 - **包括的なセキュリティヘッダー**: CSP、X-Frame-Options、HSTS対応
 - **入力値検証・サニタイゼーション**: Zod + DOMPurify
 - **Rate Limiting**: 問い合わせAPIのレート制限実装
-- **環境変数管理**: 機密情報の適切な管理
-- **依存関係監査**: pnpm audit、Renovate自動更新
 
 **アーキテクチャ設計**
 - **Server/Client Component分離**: データ取得とUI処理の明確な分離
@@ -529,10 +522,13 @@ ER図やインフラ構成図などの各ドキュメントがない既存シス
 **UI/UX機能**
 - **ダークモード対応**: システム設定連動、スムーズなトランジション
 - **レスポンシブデザイン**: モバイルファースト、全デバイス最適化
-- **アニメーション**: Framer Motionによる60fps滑らかなアニメーション
 - **アクセシビリティ**: WCAG 2.1 AA準拠、キーボードナビゲーション対応
 
 **コンテンツ管理**
 - **Contentful CMS統合**: 5つのコンテンツタイプ実装
 - **多言語対応**: 日本語・英語完全対応
 - **リアルタイム更新**: ISRによる自動コンテンツ更新
+
+## 講演
+
+- [AWS & SaaSのコスト最適化実践録](https://techplay.jp/event/974202)
